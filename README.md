@@ -19,13 +19,21 @@ This project emphasizes **orientation visualization**, not full attitude estimat
 ## System Architecture
 
 IMU (Arduino, I²C)
+
 ↓
+
 Orientation Computation (roll, pitch, yaw)
+
 ↓
+
 Serial Telemetry (USB, 115200 baud)
+
 ↓
+
 Python Serial Interface (PySerial)
+
 ↓
+
 Real-Time 3D Orientation Visualization (VPython)
 
 ## Real-Time Data Handling Strategy
